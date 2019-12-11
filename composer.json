@@ -2,7 +2,7 @@
     "name": "varmtone.com/baidu-ai-sdk",
     "description": "百度Ai开放平台语音识别、合成 RESTful API PHP SDK，基于RESTful API-v1.6.0",
     "type": "library",
-    "license": "Apache",
+    "license": "Apache-2.0",
     "version": "1.0",
     "require": {
         "php": ">=7.0"
