@@ -1,0 +1,21 @@
+{
+    "name": "varmtone.com/baiduai",
+    "description": "百度Ai开放平台语音识别、合成 RESTful API PHP SDK，基于RESTful API-v1.6.0",
+    "type": "library",
+    "license": "Apache",
+    "require": {
+        "php": ">=7.0"
+    },
+    "authors": [
+        {
+            "name": "Riche He",
+            "email": "riche_he@varmtone.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Bdai\\": "src/bdai"
+        }
+    }
+}

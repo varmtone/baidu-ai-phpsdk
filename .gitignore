@@ -1,0 +1,6 @@
+.idea
+php_errors.log
+vendor
+lib
+composer.phar
+AipSpeech.php
