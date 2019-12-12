@@ -59,6 +59,7 @@ class Http
 
     /**
      * 在uri编码中不能对'/'编码
+     *
      * @param  string $path
      * @return string
      */
@@ -69,6 +70,7 @@ class Http
 
     /**
      * 使用编码数组编码
+     *
      * @param  string $path
      * @return string
      */
@@ -83,6 +85,7 @@ class Http
 
     /**
      * 生成标准化QueryString
+     *
      * @param  array $parameters
      * @return array
      */
@@ -122,6 +125,7 @@ class Http
 
     /**
      * 生成标准化uri
+     *
      * @param  string $path
      * @return string
      */
@@ -142,6 +146,7 @@ class Http
 
     /**
      * 生成标准化http请求头串
+     *
      * @param  array $headers
      * @return array
      */

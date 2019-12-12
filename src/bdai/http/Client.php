@@ -40,6 +40,7 @@ class Client{
 
     /**
      * 响应超时
+     *
      * @param int $ms 毫秒
      */
     public function setSocketTimeoutInMillis($ms){
@@ -47,11 +48,14 @@ class Client{
     }
 
     /**
+     * post request
+     *
      * @param  string $url
      * @param  array $data HTTP POST BODY
      * @param  array $param HTTP URL
      * @param  array $headers HTTP header
      * @return array
+     * @throws Exception
      */
     public function post($url, $data=array(), $params=array(), $headers=array()){
         $url = $this->buildUrl($url, $params);
@@ -82,6 +86,8 @@ class Client{
     }
 
     /**
+     * post request
+     *
      * @param  string $url
      * @param  array $datas HTTP POST BODY
      * @param  array $param HTTP URL
@@ -131,10 +137,13 @@ class Client{
     }
 
     /**
+     * get request
+     *
      * @param  string $url
      * @param  array $param HTTP URL
      * @param  array $headers HTTP header
      * @return array
+     * @throws Exception
      */
     public function get($url, $params=array(), $headers=array()){
         $url = $this->buildUrl($url, $params);
@@ -164,6 +173,7 @@ class Client{
 
     /**
      * 构造 header
+     *
      * @param  array $headers
      * @return array
      */
@@ -176,6 +186,7 @@ class Client{
     }
 
     /**
+     * 构建url
      *
      * @param  string $url
      * @param  array $params 参数

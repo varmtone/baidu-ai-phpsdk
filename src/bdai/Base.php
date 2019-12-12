@@ -97,6 +97,7 @@ abstract class Base {
 
     /**
      * 处理请求参数
+     *
      * @param  string $url
      * @param array $params
      * @param array $data
@@ -160,6 +161,7 @@ abstract class Base {
 
     /**
      * Api 多个并发请求
+     *
      * @param  string $url
      * @param  mixed $data
      * @return array
@@ -214,6 +216,7 @@ abstract class Base {
 
     /**
      * 格式检查
+     *
      * @param  string $url
      * @param  array $data
      * @return mix
@@ -224,6 +227,7 @@ abstract class Base {
 
     /**
      * 格式化结果
+     *
      * @param $content string
      * @return mixed
      */
@@ -233,6 +237,7 @@ abstract class Base {
 
     /**
      * 返回 access token 路径
+     *
      * @return string
      */
     private function getAuthFilePath(){
@@ -256,6 +261,7 @@ abstract class Base {
 
     /**
      * 读取本地缓存
+     *
      * @return array
      */
     private function readAuthObj(){
@@ -268,7 +274,6 @@ abstract class Base {
                 return $obj;
             }
         }
-
         return null;
     }
 
@@ -303,6 +308,7 @@ abstract class Base {
 
     /**
      * 判断认证是否有权限
+     *
      * @param  array   $authObj
      * @return boolean
      */
@@ -318,6 +324,8 @@ abstract class Base {
     }
 
     /**
+     * 授权
+     *
      * @param  string $method HTTP method
      * @param  string $url
      * @param  array $param 参数

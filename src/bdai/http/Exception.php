@@ -1,6 +1,10 @@
 <?php
-
-
+/**
+ * 异常处理
+ * Copyright (c) 2017 varmtone.com, Inc. All Rights Reserved
+ *
+ * @author river_he@varmtone.com
+ */
 namespace Bdai\http;
 
 
