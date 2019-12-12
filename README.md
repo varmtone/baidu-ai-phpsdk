@@ -4,7 +4,7 @@
 ## 安装
 ```
 // 安装
-composer require varmtone.com/baidu-ai-sdk 
+composer require varmtone/baidu-ai-sdk
 
 //测试使用
 
