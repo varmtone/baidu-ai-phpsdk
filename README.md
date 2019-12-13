@@ -1,18 +1,17 @@
 # baidu-ai-phpsdk
 百度AI开放平台接口功能PHP SDK
 
-## 安装
-```
-// 安装
+## install
+```bash
+# 安装
 composer require varmtone/baidu-ai-sdk
-
-//测试使用
-
-
 ```
 
-## 使用样例
+## example
 ```php
+/**
+ * 使用案例
+ **/
 use Bdai\AipSpeech;
 
 //改成自己的配置
